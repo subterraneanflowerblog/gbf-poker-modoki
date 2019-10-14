@@ -1,0 +1,24 @@
+body {
+  font-family: sans-serif;
+}
+
+.card-group {
+  display: flex;
+  font-family: sans-serif;
+}
+
+.card {
+  margin: 0 1em;
+  border-radius: 3px;
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.2);
+  padding: 1em;
+  width: 5em;
+}
+
+.card > div {
+  text-align: center;
+}
+
+.card.hold {
+  background-color: rgb(177, 206, 177);
+}
