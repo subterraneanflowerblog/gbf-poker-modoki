@@ -2,4 +2,4 @@
 
 ポーカーもどきです
 
-https://sbfl.net/blog/2019/10/14/javascript-gbf-poker/‎(新しいタブで開く)
+https://sbfl.net/blog/2019/10/14/javascript-gbf-poker/‎
