@@ -142,6 +142,10 @@ const isStraight = (cardList) => {
     const aceStart = isLast && current.label == '5' && next.label === 'A';
     if(aceStart) { gap = 1; }
 
+    if(isLast && current.label == '4' && next.label === 'A') {
+      gap = 2;
+    }
+
     // gapが2でジョーカーが残っていれば埋める
     // 5, Joker, 7, 8, 9、みたいなやつ
     const useJoker = gap == 2 && remainWildcard > 0;
