@@ -138,7 +138,7 @@ const isStraight = (cardList) => {
 
     // A(14), 2, 3, 4, 5はストレート
     // （余談）K, A, 2, 3, 4などAを挟むのはストレートではないらしい
-    const aceStart = current.label == 'A' && next.label === '2';
+    const aceStart = index === 0 && current.label == 'A' && next.label === '2';
     if(aceStart) { gap = 1; }
 
     // gapが2でジョーカーが残っていれば埋める
